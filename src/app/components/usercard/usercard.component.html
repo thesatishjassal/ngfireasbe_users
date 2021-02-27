@@ -1,0 +1,26 @@
+<div class="card user-card">
+    <div class="background b-info text-center">
+        <img 
+        [src]="user.avatar_url"
+        alt=""
+        class="img-fluid rounded-circle profile-pic border-2 border-white">
+    </div>
+    <div class="card-body">
+        <ng-template #loadingblock>
+            <div class="text-center mt-5">
+                <div class="spinner-border spinner-grow-mg text-white">
+                </div>
+            </div>
+        </ng-template>
+        <h5 class="card-title">
+            {{user.name}}
+        </h5>
+        <p class="card-text">Biography : {{user.bio}}</p>
+        <p class="card-text">Company : {{user.company}}</p>
+        <p class="card-text">Blog : {{user.blog}}</p>
+        <p class="card-text">
+            Updated at:
+            {{ user.updated_at | date: "short" }}
+          </p>
+    </div> 
+</div>
