@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'AIzaSyBR8MhC9wxoZJE0UTCqVKtZpRQdN_5ekyQ',
-    authDomain: 'githubf-pro.firebaseapp.com',
-    projectId: 'githubf-pro',
-    storageBucket: 'githubf-pro.appspot.com',
-    messagingSenderId: '946543545710',
-    appId: '1:946543545710:web:bc31f3465c2ce24442457f',
+    apiKey: '',
+    authDomain: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: '',
+    appId: '',
   },
 };
 
